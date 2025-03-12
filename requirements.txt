@@ -1,2 +1,11 @@
-requests==2.31.0
-python-dotenv==1.0.0
+certifi==2025.1.31
+charset-normalizer==3.4.1
+idna==3.10
+pyactiveresource==2.2.2
+PyJWT==2.10.1
+python-dotenv==1.0.1
+PyYAML==6.0.2
+requests==2.32.3
+ShopifyAPI==12.7.0
+six==1.17.0
+urllib3==2.3.0
