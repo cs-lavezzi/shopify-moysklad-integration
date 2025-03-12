@@ -14,3 +14,6 @@ SHOPIFY_ACCESS_TOKEN = os.getenv('SHOPIFY_ACCESS_TOKEN')
 MOYSKLAD_LOGIN = os.getenv('MOYSKLAD_LOGIN')
 MOYSKLAD_PASSWORD = os.getenv('MOYSKLAD_PASSWORD')
 MOYSKLAD_API_TOKEN = os.getenv('MOYSKLAD_API_TOKEN')
+
+# Sinxronizatsiya sozlamalari
+SYNC_INTERVAL = int(os.getenv('SYNC_INTERVAL', 3600))  # 1 soat (sekundlarda)
